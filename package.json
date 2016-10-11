@@ -1,0 +1,36 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "nodejs webpack",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build",
+    "deploy": "webpack --config webpack.production.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huangtubiao/Nodejs-webpack.git"
+  },
+  "author": "huangtubiao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huangtubiao/Nodejs-webpack/issues"
+  },
+  "homepage": "https://github.com/huangtubiao/Nodejs-webpack#readme",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "jquery": "^3.1.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "vue": "^2.0.1",
+    "webpack": "latest",
+    "webpack-dev-server": "latest"
+  }
+}
